@@ -9,5 +9,4 @@ Es un proyecto que integra a las siguientes Cátedras:
 
 Este proyecto está integrado por:
 * Guidi, Adrián - ajguidi@gmail.com
-* Pluss, Pablo  - elkayakista@gmail.com
-                - pablo_polo@yahoo.com
+* Pluss, Pablo  - pablo_polo@yahoo.com
