@@ -1,0 +1,28 @@
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.deps.json
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.runtimeconfig.json
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.pdb
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.AssemblyInfo.cs
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.pdb
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.deps.json
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.runtimeconfig.json
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Release\netcoreapp2.1\WebApi.pdb
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.AssemblyInfo.cs
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Release\netcoreapp2.1\WebApi.pdb

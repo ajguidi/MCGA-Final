@@ -1,0 +1,42 @@
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\API-Lisandro\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+D:\Sistemas GT\Sistemas Xamarin\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+C:\Users\octil\Desktop\web facu\api 1\API\WebApi\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb
