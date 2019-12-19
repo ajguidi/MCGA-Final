@@ -40,7 +40,7 @@ namespace WebApi.controles
 
         }
 
-
+       
 
         [HttpGet("usuario/")]
         public string Get3()
@@ -62,8 +62,52 @@ namespace WebApi.controles
 
 
 
+        // POST api/<controller>
+        [HttpPost("usuario/")]
+        public int Post2([FromBody]Usuario usu)
+        {
 
-        
+
+            Fusuarios insertar = new Fusuarios();
+            int resultado = insertar.Crear(usu);
+
+            return resultado;
+
+        }
+
+
+
+
+
+
+
+        [HttpPut("usuario/")]
+        public decimal Put2([FromBody] Usuario usu)
+        {
+
+            Fusuarios mod = new Fusuarios();
+            decimal resultado = mod.Modificar(usu);
+
+            return resultado; // Se agrega la base de datos.
+
+        }// Fin del método.
+
+
+
+
+        // DELETE api/<controller>/5
+        [HttpDelete("usuario/{Idusuario}")]
+        public int Delete2(int Idusuario)
+        {
+            Fusuarios Eliminar = new Fusuarios();
+            int resultado = Eliminar.Borrar(Idusuario);
+
+            return resultado;
+
+        }
+
+
+
 
     }// Fin de la clase.
 
