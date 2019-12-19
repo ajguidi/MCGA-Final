@@ -52,7 +52,69 @@ namespace EasyParking.Funciones
 
 
 
-      
+        public static string Crear_Modificar(Clientes cli)
+        {
+
+            try
+            {
+
+                string str = JsonConvert.SerializeObject(cli);
+
+
+                System.Text.ASCIIEncoding encoding = new System.Text.ASCIIEncoding();
+                byte[] arr = encoding.GetBytes(str);
+
+                HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(servicioRest.Inicio + servicioRest.MetodoPrincipal + servicioRest.Methods.UsarioMethod);
+                if (cli.IdUsuario == 0)
+                {
+                    request.Method = servicioRest.HTTPMethods.Post;
+                }
+                else
+                {
+                    request.Method = servicioRest.HTTPMethods.Put_Modify;
+                };
+                request.ContentType = servicioRest.ContentType;
+                request.ContentLength = arr.Length;
+                request.KeepAlive = true;
+                Stream dataStream = request.GetRequestStream();
+                dataStream.Write(arr, 0, arr.Length);
+                dataStream.Close();
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                string returnString = response.StatusCode.ToString();
+                return returnString;
+
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+
+            }
+
+        }
+
+
+        public static string Eliminar(int id)
+        {
+
+            try
+            {
+
+                HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(servicioRest.Inicio + servicioRest.MetodoPrincipal + servicioRest.Methods.UsarioMethod + id);
+                request.Method = servicioRest.HTTPMethods.Delete;
+                request.ContentType = servicioRest.ContentType;
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                string returnString = response.StatusCode.ToString();
+                return returnString;
+
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
+
+            }
+
+        }
+
 
     }
 }

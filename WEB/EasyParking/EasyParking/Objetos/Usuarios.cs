@@ -8,7 +8,7 @@ namespace EasyParking.Objetos
     public class Usuarios : Empleados
     {
         public string Telefono { get; set; }
-     
+       
       
     }
 }

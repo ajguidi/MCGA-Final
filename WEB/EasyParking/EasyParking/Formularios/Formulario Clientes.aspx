@@ -139,7 +139,7 @@
 
                             <div class="form-group">
 
-                                <asp:ListView ID="ListClientes" runat="server" >
+                                <asp:ListView ID="ListClientes" runat="server" OnItemCommand="cambiar_usuario">
 
                                     <ItemTemplate>
                                         <tr>
@@ -162,7 +162,11 @@
                                             <td>
                                                 <asp:Label runat="server" ID="lblDir" Text=' <%#Eval("Direccion") %>'></asp:Label>
                                             </td>
-                                           
+                                            <td>
+                                                <asp:LinkButton runat="server" CssClass="btn btn-sm btn-success" Type="submit" CommandName="Editar" CommandArgument='<%#Eval("Idusuario")%>'><i class="glyphicon glyphicon-edit"></i></asp:LinkButton></td>
+                                            <td>
+                                                <asp:LinkButton runat="server"  CssClass="btn btn-sm btn-warning"  Type="submit"    CommandName="Eliminar" CommandArgument='<%#Eval("Idusuario")%>'    ><i class="glyphicon glyphicon-remove"></i></asp:LinkButton></td>
+                                         
                                         </tr>
 
 
@@ -196,7 +200,12 @@
                                                 <td>
                                                     <asp:Label runat="server" ID="Label6" Text="Direccion"></asp:Label>
                                                 </td>
-                                               
+                                                <td>
+                                                    <asp:Label runat="server" ID="Label7" Text="Editar"></asp:Label>
+                                                </td>
+                                                <td>
+                                                    <asp:Label runat="server" ID="Label8" Text="Eliminar"></asp:Label>
+                                                </td>
 
                                             </tr>
 
