@@ -11,14 +11,13 @@ namespace EasyParking.Formularios
 {
     public partial class Formulario_Login : System.Web.UI.Page
     {
-        Usuarios Usu;
-        List<Usuarios> listita = new List<Usuarios>();
+        Clientes Clin;
+        List<Clientes> listita = new List<Clientes>();
 
         protected void Page_Load(object sender, EventArgs e)
         {
             
-            Usu = new Usuarios
-            { 
+            Clin = new Clientes { 
             
                 Clave = txtClave.Text,        
                 Dni = txtDni.Text,
@@ -37,7 +36,7 @@ namespace EasyParking.Formularios
 
             if (usu.IdUsuario != 0)
             {
-              //  Response.Redirect("Formulario nuevo");
+                Response.Redirect("Formulario Clientes.aspx");
             }
             else
 
