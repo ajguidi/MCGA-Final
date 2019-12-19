@@ -123,7 +123,120 @@ namespace WebApi.funciones
 
 
 
-         
+        public int Crear(Usuario usu)
+        {
+
+            int _consulta = 0;
+            try
+            {
+                Sqlcliente Sql = new Sqlcliente();
+
+                string Query = $"insert into usuario ( nombre, apellido, dni, cuit, direccion, telefono, clave )" +
+                                $" values " +
+                                $" ( @Nombre, @Apellido, @Dni, @Cuit, @Direccion, @Telefono, @Clave  ) ";
+
+
+                SqlCommand cmd = new SqlCommand(Query);
+
+       
+                cmd.Parameters.AddWithValue("@Nombre", usu.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", usu.Apellido);
+                cmd.Parameters.AddWithValue("@Dni", usu.Dni);
+                cmd.Parameters.AddWithValue("@Cuit", usu.Cuit);
+                cmd.Parameters.AddWithValue("@Direccion", usu.Direccion);
+                cmd.Parameters.AddWithValue("@Telefono", usu.Telefono);
+                cmd.Parameters.AddWithValue("@Clave", usu.Clave);
+
+
+                _consulta = Sql.Enviar(cmd);
+
+                return _consulta;
+            }
+            catch (Exception)
+            {
+                return 0;
+
+            }
+
+        }
+
+
+
+        public int Modificar(Usuario usu)
+        {
+
+            int _consulta = 0;
+            try
+            {
+
+
+                Sqlcliente Sql = new Sqlcliente();
+
+                string Query =  $"update usuario set Nombre =  @Nombre, Apellido = @Apellido, Dni= @Dni,Cuit= @Cuit, " +
+                                " Direccion= @Direccion, Telefono= @Telefono, Clave= @Clave  where idusuario = @Idusuario ";
+
+                SqlCommand cmd = new SqlCommand(Query);
+
+                cmd.Parameters.AddWithValue("@Idusuario", usu.Idusuario);
+                cmd.Parameters.AddWithValue("@Nombre", usu.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", usu.Apellido);
+                cmd.Parameters.AddWithValue("@Dni", usu.Dni);
+                cmd.Parameters.AddWithValue("@Cuit", usu.Cuit);
+                cmd.Parameters.AddWithValue("@Direccion", usu.Direccion);
+                cmd.Parameters.AddWithValue("@Telefono", usu.Telefono);
+                cmd.Parameters.AddWithValue("@Clave", usu.Clave);
+
+                _consulta = Sql.Enviar(cmd);
+
+
+
+                return _consulta;
+            }
+            catch (Exception)
+            {
+                return 0;
+
+            }
+
+        }
+
+
+
+
+
+        public int Borrar(int Idusuario)
+        {
+
+            int _consulta = 0;
+            try
+            {
+                Sqlcliente Sql = new Sqlcliente();
+
+
+                string Query = $" delete from  usuario where Idusuario = @Idusuario   ";
+
+
+
+                SqlCommand cmd = new SqlCommand(Query);
+
+                cmd.Parameters.AddWithValue("@Idusuario", Idusuario);
+
+
+
+                _consulta = Sql.Enviar(cmd);
+
+
+                return _consulta;
+            }
+            catch (Exception)
+            {
+                return 0;
+
+            }
+
+        }
+
+
 
     }
 
