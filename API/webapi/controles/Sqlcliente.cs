@@ -61,7 +61,43 @@ namespace WebApi.controles
    
 
 
-      
+        public int Enviar(SqlCommand cmd)
+        {
+
+            SqlConnection con = new SqlConnection();
+            con = ConexionSQL();
+            cmd.Connection = con;
+
+            try
+            {
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+                else
+                {
+                    con.Open();
+                }
+                int resp = cmd.ExecuteNonQuery();
+
+                if (resp > 0)
+                {
+                    return resp;
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            catch (Exception)
+            {
+                return 0;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
 
     }
 }

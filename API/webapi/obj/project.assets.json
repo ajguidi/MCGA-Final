@@ -12576,11 +12576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\octil\\Desktop\\web facu\\api 1\\API\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\octil\\Desktop\\web facu\\api 2\\API\\WebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\octil\\Desktop\\web facu\\api 1\\API\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\octil\\Desktop\\web facu\\api 2\\API\\WebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\octil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\octil\\Desktop\\web facu\\api 1\\API\\WebApi\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\octil\\Desktop\\web facu\\api 2\\API\\WebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

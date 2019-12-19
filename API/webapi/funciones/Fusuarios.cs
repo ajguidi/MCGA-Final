@@ -67,12 +67,63 @@ namespace WebApi.funciones
         }
 
 
+        public static List<Usuario> Mostrar()
+        {
+            List<Usuario> Lista_usuarios = new List<Usuario>();
+            DataTable _consulta = new DataTable();
+            try
+            {
 
 
 
-  
+                string Query = $"select * from usuario  ";
 
 
+                SqlCommand cmd = new SqlCommand(Query);
+
+
+
+                _consulta = Sqlcliente.Mostrar(cmd);
+
+
+
+
+                if (_consulta.Rows.Count > 0)
+                {
+
+                    foreach (DataRow ro in _consulta.Rows)
+                    {
+                        Usuario InformacionUsuario = new Usuario();
+                        InformacionUsuario.Idusuario = Convert.ToInt32(ro.ItemArray[0]);
+                        InformacionUsuario.Nombre = ro.ItemArray[1].ToString();
+                        InformacionUsuario.Apellido = ro.ItemArray[2].ToString();
+                        InformacionUsuario.Dni = ro.ItemArray[3].ToString();
+                        InformacionUsuario.Cuit = ro.ItemArray[4].ToString();
+                        InformacionUsuario.Direccion = ro.ItemArray[5].ToString();
+                        InformacionUsuario.Telefono = ro.ItemArray[6].ToString();
+                        InformacionUsuario.Clave = ro.ItemArray[7].ToString();
+
+                        Lista_usuarios.Add(InformacionUsuario);
+
+                    }
+
+                 
+
+
+                }
+                return Lista_usuarios;
+            }
+            catch  
+            {
+                return Lista_usuarios;
+
+            }
+           
+        }
+
+
+
+         
 
     }
 

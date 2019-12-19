@@ -40,9 +40,30 @@ namespace WebApi.controles
 
         }
 
-       
 
 
+        [HttpGet("usuario/")]
+        public string Get3()
+        {
+            List<Usuario> InformacionUsuario = new List<Usuario>();
+            try
+            {
+                InformacionUsuario = Fusuarios.Mostrar();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            var jsonconver = JsonConvert.SerializeObject(InformacionUsuario);
+            return jsonconver.ToString();
+
+        }
+
+
+
+
+        
 
     }// Fin de la clase.
 
